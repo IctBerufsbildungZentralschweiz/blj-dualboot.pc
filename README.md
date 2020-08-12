@@ -72,6 +72,11 @@ Suche im Internet nach OpenSource oder Freeware Applikationen und installiere di
 - PDF Reader
 - Web Browser
 
+# 7. Checkliste und Rückbau
+
+Abschluss der Arbeiten gemäss diesen Punkten:
+- [Checkliste](https://cloud.ict-bz.ch/index.php/s/vrHwacMdcUX2820) ist abgearbeitet
+- Komponenten sind zurückgebaut
 
 
 
