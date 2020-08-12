@@ -12,6 +12,9 @@ languageTool.language:de
 # 1. PC Assemblieren (zusammenbauen)
 ### Lernziel: Das Mainboard ist mit allen notwendigen Komponenten assembliert (CPU, RAM, GPU) und in das Gehäuse eingebaut. Der PC lässt sich starten.
 
+> ***ACHTUNG:** Mache dich __vor__ dem Anfassen der Komponenten mit elektrostatischer Entladungen ESD vertraut und treffe Schutzmassnahmen!
+-> [Video](https://www.youtube.com/watch?v=kwrfjVrIn50) & [Infos](https://www.bimos.com/B/ch-de/news/3009/die-wichtigsten-esd-schutzmassnahmen-fuer-eine-stoerungsfreie-arbeit)* 
+
 > ***Tipp:** Überlegen dann bauen! Welche Komponenten verbaut man besser zuerst auf dem Mainboard bevor wir es in das Gehäuse einabauen?* 
 
 Werden die Komponenten im BIOS erkannt?
