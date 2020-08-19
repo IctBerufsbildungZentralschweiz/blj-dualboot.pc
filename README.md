@@ -24,9 +24,9 @@ Werden die Komponenten im BIOS erkannt?
 Setze das BIOS auf UEFI Modus. Mache Dich mit den Unterschieden UEFI legacy BIOS vertraut. Wikipedia enthält einige Infos zu UEFI: [Unified Extensible Firmware Interface](https://de.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) welche Dir die Unterschiede erklären.
 
 # 2. Beschreiben der Anschlüsse auf dem Mainboard
-### Lernziel: Alle Anschlüsse auf dem Mianboard sind bezeichnet
+### Lernziel: Alle Anschlüsse auf dem Mianboard sind bezeichnet und die Funktion beschrieben (Word Dokument)
 
-Erstelle ein Foto von allen Anschlüssen auf dem Mainboard. Füge das Foto in ein Word ein und bezeichne alle Anschlüsse.
+Erstelle ein Foto von allen Anschlüssen auf dem Mainboard. Füge das Foto in ein Word ein und bezeichne alle Anschlüsse. Beschreibe die Funktion der Anschlüsse und erkläre die Abkürzungen.
 
 Gibt es Anschlüsse wo Du nicht kennst? Suche Dir die Infos im Internet dazu.
 
@@ -49,20 +49,35 @@ Als Linux Distribution verweden wir Ubuntu. Es gibt unzählige Distributionen mi
 > ***Tipp:** Linux Distribution herunterladen und Boot Stick einfach erstellen? [UNetbootin](https://unetbootin.github.io/) hilft!*
 
 # 5. Gemeinsame Datenpartition erstellen
-### Lernziel: Wir können Daten zwischen Windows und Linux austauschen.
+### Lernziel: Wir können Daten zwischen Windows und Linux austauschen. Die verschiedenen Dateisysteme sind bekannt. Eine Datensicherung ist eingerichtet.
 
-Wenn wir zwei verschieden Betriebssysteme auf dem PC haben, möchten wir trotzdem die Daten austauschen können. Wie lösen wir das?
+Wenn wir zwei verschieden Betriebssysteme auf dem PC haben, möchten wir trotzdem die Daten austauschen können. Wie lösen wir das? mache Dich mit den Unterschieden der Dateisysteme vertraut und notiere Dir diese.
 
 > ***Tipp:** Mache Dir gedanken welches [Dateisystem](https://de.wikipedia.org/wiki/Dateisystem) Linux und Windows versteht.*
 
+Daten sind wichtig, daher sollten dies auch regelmässig gesichert werden. Mache Dich mit der [3-2-1 Regel](https://www.veeam.com/blog/de/how-to-follow-the-3-2-1-backup-rule-with-veeam-backup-replication.html) bekannt und überlege Dir, wie Du die Datensicherung bei deinem PC lösen würdest. Erstelle ein kleines Backup Konzept.
+
+Installiere eine Backup Software auf beiden Betriebssystemen (Linux und Windows) und richte einen Backup Job ein, welcher Deine Daten-Partition täglich sichert. Eine einfache Sicherung der Daten auf ein externes Medium reicht (eine Kopie).
+
+> *Teste auch das wiederherstellen der Daten! Funktioniert das einwandfrei?*
 
 # 6. Virenschutz und Standard Applikationen
 
-### Lernziel: Windows und Linux verfügen über einen Virenschutz. Die Standard Applikationen gemäss Liste sind installiert.
+### Lernziel: Windows und Linux verfügen über einen Virenschutz. Die Standard Applikationen gemäss Liste sind installiert. Bedrohungen eines Betriebsystems sind bekannt.
 
 Jedes Betriebsystem ist nicht geschützt vor Viren. Daher benötigt es einen Virenschutz. Suche auch dem Internet nach einem kostenlosen Virenschutz und installiere diesen auf beiden Betriebsystemen. Es spielt keine Rolle ob Du für beide Betriebsysteme den gleichen Virenschutz oder zwei unterschiedliche verwendest.
 
 > ***Tipp:** Teste ob der Virenscanner funktioniert! Auf der Webseite vom [EICAR](https://www.eicar.org/) - European Institute for Computer Antivirus Research findest Du Test-Dateien.*
+
+Erstelle ein Merkblatt, in welchem die folgende Malware erklärt wird: 
+
+- Was ist ein Computervirus? 
+- Was ist ein Trojaner? 
+- Was ist ein Wurm? 
+- Was ist ein Hoax?
+
+> *Erkläre im Merkblatt auch die jeweilige Funktionsweise (Prinzip genügt) einer jeden Malware sowie welche Schutzmassnahmen und Gegenmassnahmen getroffen werden können respektive getroffen werden sollten, um Schaden zu vermeiden.*
+
 
 Suche im Internet nach OpenSource oder Freeware Applikationen und installiere diese auf beiden Betriebsystemen:
 
@@ -72,11 +87,29 @@ Suche im Internet nach OpenSource oder Freeware Applikationen und installiere di
 - PDF Reader
 - Web Browser
 
-# 7. Checkliste und Rückbau
+# 7.  Vernetzung
+
+### Lernziel: Windows und Linux können auf dem Schulzimmer Drucker erfolgreich drucken. Netzlaufwerk für Datenaustausch unter Windows und Linux sind eingerichtet.
+
+Wir vernetzen den PC über einen Switch mit dem PC der anderen Gruppe. Wir möchten mit der anderen Gruppe Daten austauschen. Dazu geben wir die Datenpartition frei und richten unter Windows und Linux ein Netzlaufwerk ein.
+
+> ***Tipp:** Windows und Linux verstehen sich gut, sofern man die richtigen Protokolle benutzt. Windows verwendet SMB für den [Datenaustausch](https://www.pcwelt.de/ratgeber/Windows-und-Linux-Freigaben-einrichten-9790088.html). Linux nennt das Protokoll Samba.*
+
+Sprecht mit der anderen Gruppe ab, wer die Freigabe unter Windows einrichtet und wer die Verbindung zur Freigabe unter Linux einrichtet. Die Gruppe wo unter Linux die Verbindung zur Freigabe eingerichtet hat, gibt nachher Ihre Datenpartition unter Linux frei und die andere Gruppe richtet eine Verbindung unter Windows zu dieser ein.
+
+> *Jede Gruppe muss auf der Freigabe Dateien lesen, löschen und erstellen können. Mache Dich mit den Berechtigungen in [Windows](https://blog.netwrix.de/2020/01/02/unterschiede-zwischen-freigabe-und-ntfs-berechtigungen/) und [Linux](https://praxistipps.chip.de/ubuntu-zugriffsrechte-aendern-so-gehts_49353) vertraut.*
+
+
+# 8. Checkliste und Rückbau
 
 Abschluss der Arbeiten gemäss diesen Punkten:
 - [Checkliste](https://cloud.ict-bz.ch/index.php/s/vrHwacMdcUX2820) ist abgearbeitet
 - Komponenten sind zurückgebaut
 
+# A. Ergonomie am Arbeitsplatz
 
+### Lernziel: Kennen der ergonomische Richtlinien für den Arbeitsplatz
 
+Lese auf der Webseite der [SUVA](https://www.suva.ch/de-CH/material/Dokumentationen/bildschirmarbeit-wichtige-informationen-fur-ihr-wohlbefinden) die Informationen zum Thema Ergonomie am Computer Arbeitsplatz durch. Erstelle je ein Merkblatt mit den wichtigsten Merkmalen für einen ergonomischen Computer Arbeitsplatz und eines in A3 mit den wichtigsten Gesundheitstipps für den Computer Arbeitsplatz.
+
+Überprüfen Deinen bestehende Arbeitsplätz auf ergonomische Aspekte hin. Sind die Arbeitsplätze ergonomisch korrekt eingerichtet? Gibt es Verbesserungspotenzial?
