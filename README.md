@@ -8,6 +8,11 @@ languageTool.language:de
 4. Dualboot mit Betriebsystem Linux einrichten
 5. Gemeinsame Datenpartition erstellen
 6. Virenschutz und Standard Applikationen
+7. Vernetzung
+8. Checkliste und Rückbau
+9. Ergonomie am Arbeitsplatz
+
+
 
 # 1. PC Assemblieren (zusammenbauen)
 ### Lernziel: Das Mainboard ist mit allen notwendigen Komponenten assembliert (CPU, RAM, GPU) und in das Gehäuse eingebaut. Der PC lässt sich starten.
@@ -87,7 +92,7 @@ Suche im Internet nach OpenSource oder Freeware Applikationen und installiere di
 - PDF Reader
 - Web Browser
 
-# 7.  Vernetzung
+# 7. Vernetzung
 
 ### Lernziel: Windows und Linux können auf dem Schulzimmer Drucker erfolgreich drucken. Netzlaufwerk für Datenaustausch unter Windows und Linux sind eingerichtet.
 
@@ -106,7 +111,7 @@ Abschluss der Arbeiten gemäss diesen Punkten:
 - [Checkliste](https://cloud.ict-bz.ch/index.php/s/vrHwacMdcUX2820) ist abgearbeitet
 - Komponenten sind zurückgebaut
 
-# A. Ergonomie am Arbeitsplatz
+# 9. Ergonomie am Arbeitsplatz
 
 ### Lernziel: Kennen der ergonomische Richtlinien für den Arbeitsplatz
 
