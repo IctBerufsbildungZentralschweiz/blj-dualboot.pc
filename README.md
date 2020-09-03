@@ -17,7 +17,7 @@ languageTool.language:de
 # 1. PC Assemblieren (zusammenbauen)
 ### Lernziel: Das Mainboard ist mit allen notwendigen Komponenten assembliert (CPU, RAM, GPU) und in das Gehäuse eingebaut. Der PC lässt sich starten.
 
-> ***ACHTUNG:** Mache dich __vor__ dem Anfassen der Komponenten mit elektrostatischer Entladungen ESD vertraut und treffe Schutzmassnahmen!
+> ***ACHTUNG:** Mache Dich __vor__ dem Anfassen der Komponenten mit elektrostatischer Entladungen ESD vertraut und treffe Schutzmassnahmen!
 -> [Video](https://www.youtube.com/watch?v=kwrfjVrIn50) & [Infos](https://www.bimos.com/B/ch-de/news/3009/die-wichtigsten-esd-schutzmassnahmen-fuer-eine-stoerungsfreie-arbeit)* 
 
 > ***Tipp:** Überlegen dann bauen! Welche Komponenten verbaut man besser zuerst auf dem Mainboard bevor wir das Mainboard in das Gehäuse einbauen?* 
@@ -38,7 +38,7 @@ Gibt es Anschlüsse wo Du nicht kennst? Suche Dir die Infos im Internet dazu.
 # 3. Betriebssystem Windows installieren 
 ### Lernziel: Windows ist installiert und lässt sich starten.
 
-Besorge Dir das Windows ISO und erstelle Dir einen Boot fähigen USB-Stick, um damit das Windows auf dem PC zu installieren. Das ISO lässt sich auch ohne Windows Key installieren (60 Tage Demo)!
+Besorge Dir das Windows ISO und erstelle einen Boot fähigen USB-Stick, um damit das Windows auf dem PC zu installieren. Das ISO lässt sich auch ohne Windows Key installieren (60 Tage Demo)!
 
 **-> Installiere Windows 10 Pro** [Download Windows ISO](https://cloud.ict-bz.ch/index.php/s/GGnQzQr4c2G6FFl)
 
@@ -62,15 +62,15 @@ Wenn wir zwei verschieden Betriebssysteme auf dem PC haben, möchten wir trotzde
 
 Daten sind wichtig, daher sollten diese auch regelmässig gesichert werden. Mache Dich mit der [3-2-1 Regel](https://www.veeam.com/blog/de/how-to-follow-the-3-2-1-backup-rule-with-veeam-backup-replication.html) bekannt und überlege Dir, wie Du die Datensicherung bei Deinem PC lösen würdest. Erstelle ein kleines Backup-Konzept.
 
-Installiere eine Backup Software auf beiden Betriebssystemen (Linux und Windows) und richte einen Backup Job ein, welcher Deine Daten-Partition täglich sichert. Eine einfache Sicherung der Daten auf ein externes Medium reicht (eine Kopie).
+Installiere jeweils eine Backup-Software auf den Betriebssystemen (Linux und Windows) und richte einen Backup-Job ein, welcher Deine Daten-Partition täglich sichert. Eine einfache Sicherung der Daten auf ein externes Medium reicht (eine Kopie).
 
-> *Teste auch das Wiederherstellen der Daten! Funktioniert das einwandfrei?*
+> *Teste auch das Wiederherstellen der Daten! Funktioniert das problemlos?*
 
 # 6. Virenschutz und Standard Applikationen
 
 ### Lernziel: Windows und Linux verfügen über einen Virenschutz. Die Standard Applikationen gemäss Liste sind installiert. Bedrohungen eines Betriebssystems sind bekannt.
 
-Jedes Betriebssystem ist nicht vor Viren geschützt. Daher benötigt es einen Virenschutz. Suche im Internet nach einem kostenlosen Virenschutz und installiere diesen auf beiden Betriebssystemen. Es spielt keine Rolle, ob Du für beide Betriebssysteme den gleichen Virenschutz oder zwei unterschiedliche verwendest.
+Betriebssystem sind nicht vor Viren geschützt. Daher benötigt es immer einen Virenschutz. Suche im Internet nach einem kostenlosen Virenschutz und installiere diesen auf den beiden Betriebssystemen. Es spielt keine Rolle, ob Du für beide Betriebssysteme den gleichen Virenschutz oder zwei unterschiedliche verwendest.
 
 > ***Tipp:** Teste ob der Virenscanner funktioniert! Auf der Webseite vom [EICAR](https://www.eicar.org/) - European Institute for Computer Antivirus Research findest Du Test-Dateien.*
 
