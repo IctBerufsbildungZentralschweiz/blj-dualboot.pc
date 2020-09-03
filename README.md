@@ -4,7 +4,7 @@ languageTool.language:de
 # Wir bauen einen PC mit Dualboot
 1. PC Assemblieren (zusammenbauen)
 2. Beschreiben der Anschlüsse auf dem Mainboard
-3. Installieren Betriebsystem Windows
+3. Betriebssystem Windows installieren
 4. Dualboot mit Betriebsystem Linux einrichten
 5. Gemeinsame Datenpartition erstellen
 6. Virenschutz und Standard Applikationen
@@ -20,25 +20,25 @@ languageTool.language:de
 > ***ACHTUNG:** Mache dich __vor__ dem Anfassen der Komponenten mit elektrostatischer Entladungen ESD vertraut und treffe Schutzmassnahmen!
 -> [Video](https://www.youtube.com/watch?v=kwrfjVrIn50) & [Infos](https://www.bimos.com/B/ch-de/news/3009/die-wichtigsten-esd-schutzmassnahmen-fuer-eine-stoerungsfreie-arbeit)* 
 
-> ***Tipp:** Überlegen dann bauen! Welche Komponenten verbaut man besser zuerst auf dem Mainboard bevor wir es in das Gehäuse einabauen?* 
+> ***Tipp:** Überlegen dann bauen! Welche Komponenten verbaut man besser zuerst auf dem Mainboard bevor wir das Mainboard in das Gehäuse einbauen?* 
 
 Werden die Komponenten im BIOS erkannt?
 
-> ***Tipp:** Der Hersteller der Maiboards gibt Auskunft über welche Tastenkombination man ins BIOS gelangt.*
+> ***Tipp:** Der Hersteller des Maiboards gibt Auskunft über welche Tastenkombination man ins BIOS gelangt.*
 
-Setze das BIOS auf UEFI Modus. Mache Dich mit den Unterschieden UEFI legacy BIOS vertraut. Wikipedia enthält einige Infos zu UEFI: [Unified Extensible Firmware Interface](https://de.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) welche Dir die Unterschiede erklären.
+Setze das BIOS auf UEFI Modus. Mache Dich mit den Unterschieden UEFI, legacy BIOS vertraut. Wikipedia enthält einige Infos zu UEFI: [Unified Extensible Firmware Interface](https://de.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) welche Dir die Unterschiede erklären.
 
 # 2. Beschreiben der Anschlüsse auf dem Mainboard
-### Lernziel: Alle Anschlüsse auf dem Mianboard sind bezeichnet und die Funktion beschrieben (Word Dokument)
+### Lernziel: Alle Anschlüsse auf dem Mainboard sind bezeichnet und die Funktion beschrieben (Word-Dokument)
 
-Erstelle ein Foto von allen Anschlüssen auf dem Mainboard. Füge das Foto in ein Word ein und bezeichne alle Anschlüsse. Beschreibe die Funktion der Anschlüsse und erkläre die Abkürzungen.
+Erstelle ein Foto von allen Anschlüssen auf dem Mainboard. Füge das Foto in ein Word-Dokument ein und bezeichne alle Anschlüsse. Beschreibe die Funktion der Anschlüsse und erkläre die Abkürzungen.
 
 Gibt es Anschlüsse wo Du nicht kennst? Suche Dir die Infos im Internet dazu.
 
-# 3. Installieren Betriebsystem Windows
+# 3. Betriebssystem Windows installieren 
 ### Lernziel: Windows ist installiert und lässt sich starten.
 
-Besorge Dir das Windows ISO und erstelle Dir einen Boot fähigen USB-Stick um damit das Windows auf den PC zu installieren. Das ISO lässt sich auch ohne Windows Key installieren (60 Tage Demo)!
+Besorge Dir das Windows ISO und erstelle Dir einen Boot fähigen USB-Stick, um damit das Windows auf dem PC zu installieren. Das ISO lässt sich auch ohne Windows Key installieren (60 Tage Demo)!
 
 **-> Installiere Windows 10 Pro** [Download Windows ISO](https://cloud.ict-bz.ch/index.php/s/GGnQzQr4c2G6FFl)
 
@@ -46,31 +46,31 @@ Besorge Dir das Windows ISO und erstelle Dir einen Boot fähigen USB-Stick um da
 
 > ***Tipp:** ISO Boot Stick einfach erstellen? [RUFUS](https://rufus.ie/) hilft!*
 
-# 4. Dualboot mit Betriebsystem Linux einrichten
+# 4. Dualboot mit Betriebssystem Linux einrichten
 ### Lernziel: Linux ist installiert und lässt sich starten. Dualboot ist korrekt konfiguriert und Windows oder Linux startet korrekt.
 
-Als Linux Distribution verweden wir Ubuntu. Es gibt unzählige Distributionen mit oder ohne grafische Oberfläche (GUI). Ubunutu ist die weit verbreiteste Distribution mit grafsicher Oberfläche.
+Als Linux Distribution verweden wir Ubuntu. Es gibt unzählige Distributionen mit oder ohne grafischer Oberfläche (GUI). Ubunutu ist die weitverbreitetste Distribution mit grafischer Oberfläche.
 
 > ***Tipp:** Linux Distribution herunterladen und Boot Stick einfach erstellen? [UNetbootin](https://unetbootin.github.io/) hilft!*
 
 # 5. Gemeinsame Datenpartition erstellen
 ### Lernziel: Wir können Daten zwischen Windows und Linux austauschen. Die verschiedenen Dateisysteme sind bekannt. Eine Datensicherung ist eingerichtet.
 
-Wenn wir zwei verschieden Betriebssysteme auf dem PC haben, möchten wir trotzdem die Daten austauschen können. Wie lösen wir das? mache Dich mit den Unterschieden der Dateisysteme vertraut und notiere Dir diese.
+Wenn wir zwei verschieden Betriebssysteme auf dem PC haben, möchten wir trotzdem Daten untereinander austauschen können. Wie lösen wir das? Mache Dich mit den Unterschieden der Dateisysteme vertraut und notiere Dir diese.
 
 > ***Tipp:** Mache Dir gedanken welches [Dateisystem](https://de.wikipedia.org/wiki/Dateisystem) Linux und Windows versteht.*
 
-Daten sind wichtig, daher sollten dies auch regelmässig gesichert werden. Mache Dich mit der [3-2-1 Regel](https://www.veeam.com/blog/de/how-to-follow-the-3-2-1-backup-rule-with-veeam-backup-replication.html) bekannt und überlege Dir, wie Du die Datensicherung bei deinem PC lösen würdest. Erstelle ein kleines Backup Konzept.
+Daten sind wichtig, daher sollten diese auch regelmässig gesichert werden. Mache Dich mit der [3-2-1 Regel](https://www.veeam.com/blog/de/how-to-follow-the-3-2-1-backup-rule-with-veeam-backup-replication.html) bekannt und überlege Dir, wie Du die Datensicherung bei Deinem PC lösen würdest. Erstelle ein kleines Backup-Konzept.
 
 Installiere eine Backup Software auf beiden Betriebssystemen (Linux und Windows) und richte einen Backup Job ein, welcher Deine Daten-Partition täglich sichert. Eine einfache Sicherung der Daten auf ein externes Medium reicht (eine Kopie).
 
-> *Teste auch das wiederherstellen der Daten! Funktioniert das einwandfrei?*
+> *Teste auch das Wiederherstellen der Daten! Funktioniert das einwandfrei?*
 
 # 6. Virenschutz und Standard Applikationen
 
-### Lernziel: Windows und Linux verfügen über einen Virenschutz. Die Standard Applikationen gemäss Liste sind installiert. Bedrohungen eines Betriebsystems sind bekannt.
+### Lernziel: Windows und Linux verfügen über einen Virenschutz. Die Standard Applikationen gemäss Liste sind installiert. Bedrohungen eines Betriebssystems sind bekannt.
 
-Jedes Betriebsystem ist nicht geschützt vor Viren. Daher benötigt es einen Virenschutz. Suche auch dem Internet nach einem kostenlosen Virenschutz und installiere diesen auf beiden Betriebsystemen. Es spielt keine Rolle ob Du für beide Betriebsysteme den gleichen Virenschutz oder zwei unterschiedliche verwendest.
+Jedes Betriebssystem ist nicht vor Viren geschützt. Daher benötigt es einen Virenschutz. Suche im Internet nach einem kostenlosen Virenschutz und installiere diesen auf beiden Betriebssystemen. Es spielt keine Rolle, ob Du für beide Betriebssysteme den gleichen Virenschutz oder zwei unterschiedliche verwendest.
 
 > ***Tipp:** Teste ob der Virenscanner funktioniert! Auf der Webseite vom [EICAR](https://www.eicar.org/) - European Institute for Computer Antivirus Research findest Du Test-Dateien.*
 
@@ -81,10 +81,10 @@ Erstelle ein Merkblatt, in welchem die folgende Malware erklärt wird:
 - Was ist ein Wurm? 
 - Was ist ein Hoax?
 
-> *Erkläre im Merkblatt auch die jeweilige Funktionsweise (Prinzip genügt) einer jeden Malware sowie welche Schutzmassnahmen und Gegenmassnahmen getroffen werden können respektive getroffen werden sollten, um Schaden zu vermeiden.*
+> *Erkläre im Merkblatt auch die jeweilige Funktionsweise (Prinzip genügt) einer jeden Malware, sowie welche Schutzmassnahmen und Gegenmassnahmen getroffen werden können, respektive getroffen werden sollten, um Schäden zu vermeiden.*
 
 
-Suche im Internet nach OpenSource oder Freeware Applikationen und installiere diese auf beiden Betriebsystemen:
+Suche im Internet nach OpenSource oder Freeware Applikationen und installiere diese auf beiden Betriebssystemen:
 
 - Office Applikation
 - Bildbearabeitung
@@ -94,7 +94,7 @@ Suche im Internet nach OpenSource oder Freeware Applikationen und installiere di
 
 # 7. Vernetzung
 
-### Lernziel: Windows und Linux können auf dem Schulzimmer Drucker erfolgreich drucken. Netzlaufwerk für Datenaustausch unter Windows und Linux sind eingerichtet.
+### Lernziel: Windows und Linux können auf dem Schulzimmer-Drucker erfolgreich drucken. Netzlaufwerk für Datenaustausch unter Windows und Linux sind eingerichtet.
 
 Wir vernetzen den PC über einen Switch mit dem PC der anderen Gruppe. Wir möchten mit der anderen Gruppe Daten austauschen. Dazu geben wir die Datenpartition frei und richten unter Windows und Linux ein Netzlaufwerk ein.
 
@@ -113,8 +113,8 @@ Abschluss der Arbeiten gemäss diesen Punkten:
 
 # 9. Ergonomie am Arbeitsplatz
 
-### Lernziel: Kennen der ergonomische Richtlinien für den Arbeitsplatz
+### Lernziel: Kennen der ergonomischen Richtlinien für den Computer-Arbeitsplatz
 
-Lese auf der Webseite der [SUVA](https://www.suva.ch/de-CH/material/Dokumentationen/bildschirmarbeit-wichtige-informationen-fur-ihr-wohlbefinden) die Informationen zum Thema Ergonomie am Computer Arbeitsplatz durch. Erstelle je ein Merkblatt mit den wichtigsten Merkmalen für einen ergonomischen Computer Arbeitsplatz und eines in A3 mit den wichtigsten Gesundheitstipps für den Computer Arbeitsplatz.
+Lese auf der Webseite der [SUVA](https://www.suva.ch/de-CH/material/Dokumentationen/bildschirmarbeit-wichtige-informationen-fur-ihr-wohlbefinden) die Informationen zum Thema Ergonomie am Computer-Arbeitsplatz durch. Notiere Dir die wichtigsten Merkmale für einen ergonomischen Computer-Arbeitsplatz und erstelle ein Merkblatt (in A3) mit den wichtigsten Gesundheitstipps für das Arbeiten am Computer.
 
-Überprüfen Deinen bestehende Arbeitsplätz auf ergonomische Aspekte hin. Sind die Arbeitsplätze ergonomisch korrekt eingerichtet? Gibt es Verbesserungspotenzial?
+Überprüfen Deinen bestehenden Arbeitsplätz auf ergonomische Aspekte hin. Sind die Arbeitsplätze ergonomisch korrekt eingerichtet? Gibt es Verbesserungspotenzial?
