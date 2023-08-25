@@ -18,7 +18,7 @@ languageTool.language:de
 ### Lernziel: Das Mainboard ist mit allen notwendigen Komponenten assembliert (CPU, RAM, GPU) und in das Gehäuse eingebaut. Der PC lässt sich starten.
 
 > ***ACHTUNG:** Mache Dich __vor__ dem Anfassen der Komponenten mit elektrostatischer Entladungen ESD vertraut und treffe Schutzmassnahmen!
--> [Video](https://www.youtube.com/watch?v=kwrfjVrIn50) & [Infos](https://www.bimos.com/B/ch-de/news/3009/die-wichtigsten-esd-schutzmassnahmen-fuer-eine-stoerungsfreie-arbeit)* 
+-> [Video](https://www.youtube.com/watch?v=D_D9xng3IZA) & [Infos](https://www.bimos.com/B/ch-de/news/3009/die-wichtigsten-esd-schutzmassnahmen-fuer-eine-stoerungsfreie-arbeit)* 
 
 > ***Tipp:** Überlegen dann bauen! Welche Komponenten verbaut man besser zuerst auf dem Mainboard bevor wir das Mainboard in das Gehäuse einbauen?* 
 
@@ -60,7 +60,7 @@ Wenn wir zwei verschieden Betriebssysteme auf dem PC haben, möchten wir trotzde
 
 > ***Tipp:** Mache Dir gedanken welches [Dateisystem](https://de.wikipedia.org/wiki/Dateisystem) Linux und Windows versteht.*
 
-Daten sind wichtig, daher sollten diese auch regelmässig gesichert werden. Mache Dich mit der [3-2-1 Regel](https://www.veeam.com/blog/de/how-to-follow-the-3-2-1-backup-rule-with-veeam-backup-replication.html) bekannt und überlege Dir, wie Du die Datensicherung bei Deinem PC lösen würdest. Erstelle ein kleines Backup-Konzept.
+Daten sind wichtig, daher sollten diese auch regelmässig gesichert werden. Mache Dich mit der [3-2-1 Regel](https://www.veeam.com/blog/321-backup-rule.html) bekannt und überlege Dir, wie Du die Datensicherung bei Deinem PC lösen würdest. Erstelle ein kleines Backup-Konzept.
 
 Installiere jeweils eine Backup-Software auf den Betriebssystemen (Linux und Windows) und richte einen Backup-Job ein, welcher Deine Daten-Partition täglich sichert. Eine einfache Sicherung der Daten auf ein externes Medium reicht (eine Kopie).
 
