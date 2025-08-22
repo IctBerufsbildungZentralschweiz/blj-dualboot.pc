@@ -10,7 +10,6 @@ languageTool.language:de
 6. Virenschutz und Standard Applikationen
 7. Vernetzung
 8. Checkliste und Rückbau
-9. Ergonomie am Arbeitsplatz
 
 
 
@@ -110,11 +109,3 @@ Sprecht mit der anderen Gruppe ab, wer die Freigabe unter Windows einrichtet und
 Abschluss der Arbeiten gemäss diesen Punkten:
 - [Checkliste](https://cloud.ict-bz.ch/index.php/s/vrHwacMdcUX2820) ist abgearbeitet
 - Komponenten sind zurückgebaut
-
-# 9. Ergonomie am Arbeitsplatz
-
-### Lernziel: Kennen der ergonomischen Richtlinien für den Computer-Arbeitsplatz
-
-Lese auf der Webseite der [SUVA](https://www.suva.ch/de-CH/material/Dokumentationen/bildschirmarbeit-wichtige-informationen-fur-ihr-wohlbefinden) die Informationen zum Thema Ergonomie am Computer-Arbeitsplatz durch. Notiere Dir die wichtigsten Merkmale für einen ergonomischen Computer-Arbeitsplatz und erstelle ein Merkblatt (in A3) mit den wichtigsten Gesundheitstipps für das Arbeiten am Computer.
-
-Überprüfen Deinen bestehenden Arbeitsplätz auf ergonomische Aspekte hin. Sind die Arbeitsplätze ergonomisch korrekt eingerichtet? Gibt es Verbesserungspotenzial?
